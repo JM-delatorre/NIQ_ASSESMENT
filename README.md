@@ -1,5 +1,8 @@
 # NIQ
 
+by: Juan Manuel De La Torre Sanchez
+
+
 ## Table of Contents
 
 1. [**Before All**](#before-all)
