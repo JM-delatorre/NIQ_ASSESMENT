@@ -48,3 +48,4 @@ Here it will initialize all the services by itself
 ```bash
 docker compose -f ./docker/docker-compose.yml --env-file envs/api.env --env-file envs/psql.env  up --build
 ```
+
