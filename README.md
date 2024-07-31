@@ -49,3 +49,16 @@ Here it will initialize all the services by itself
 docker compose -f ./docker/docker-compose.yml --env-file envs/api.env --env-file envs/psql.env  up --build
 ```
 
+
+## SOME EXTRAS :D
+As you can see we used trivy for scanning the image of our app and it appears to be just right
+
+![alt text](misc/image.png)
+
+
+# POSIBLE IMPROVEMENTS
+
+* Add SSL (maybe with certbot)
+* Add Some CI/CD for the images and put the diferrent checks in there
+* Add some security checks and logging options to the src
+* Upload the secrets to some cloud service like Parameter Store in AWS
