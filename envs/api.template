@@ -1,0 +1,5 @@
+DB_NAME=niq
+DB_USER=niq-user
+DB_PASSWORD=12345
+DB_HOST=niq-db
+DB_PORT=5432
